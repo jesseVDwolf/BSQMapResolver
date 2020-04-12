@@ -3,11 +3,11 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-int			main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
-	t_bsqmap    **maps;
-    int         idx;
-    int         nmaps;
+	t_bsqmap	**maps;
+    int			idx;
+    int			nmaps;
 
     if (argc == 1)
     {
@@ -24,7 +24,7 @@ int			main(int argc, char **argv)
             write(2, "map error\n", 10);
         else
         {
-            resolve_map(maps[idx]);
+			resolve_map(maps[idx]);
 			(maps[idx]->grid) ? print_map_result(maps[idx]) : write(2, "map error\n", 10);
         }
 		idx++;
