@@ -1,6 +1,6 @@
 # Clang_BSQMapResolver
 
-This project is a exploration into the C language. It is based 
+This project is part of a series of small programs that help me explore the C language. It is based 
 on the [BSQ assignment](https://github.com/Binary-Hackers/42_Subjects/blob/master/01_Piscines/C/EN/bsq.en.pdf) provided by the 42 network.
 
 ## Installation
